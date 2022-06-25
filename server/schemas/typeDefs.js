@@ -42,6 +42,7 @@ type Thought {
   }
 
   type Query {
+    me: User
     users: [User]
     user(username: String!): User
     thoughts(username: String): [Thought]
