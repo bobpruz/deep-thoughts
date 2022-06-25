@@ -41,6 +41,7 @@ function App() {
                 <Route path="" element={<Profile />} />
               </Route>
               <Route path="/thought/:id" element={<SingleThought />} />
+              <Route path="*" element={<NoMatch />} />
             </Routes>
           </div>
           <Footer />
